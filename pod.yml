@@ -19,14 +19,7 @@ spec:
     spec:
       containers:
         - name: catalogue
-          image: jithendar/catalogue:IMAGETAG
-          resources:
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
-          limits:
-            memory: "64Mi"
-            cpu: "250m"
+          image: jithendar/catalogue:10.5
           ports:
             - containerPort: 8080
           env:
